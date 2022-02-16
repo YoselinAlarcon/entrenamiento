@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background: white;
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+}
+.encabezado{
+    background: rgb(236, 188, 31);
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+}
+nav ul li {
+    font-size: 20px;
+    float: left;
+    margin: 0px;
+    padding: 2px 20px;
+    list-style: none;
+    display: inline-block;
+    line-height: 195px;
+}
+.encabezado__enlace{
+    text-decoration: none;
+    color:white 
+    
+}
+.logo{
+    width: 280px;
+    height: 200px;
+    right: 0px;
+    display: inline;
+    float: right;
+    padding: 0px;
+    line-height: 100px;
+}
+.imagen{
+    width: 100%;
+    height: 450px;
+}
+.parrafo1{
+    text-align: center;
+}
+.parrafo1 h2{
+    font-size: 40px;
+    margin: 30px;
+
+}
+.parrafo1 p{
+    margin: 30px;
+    font-size: 20px;
+}
+.parrafo2{
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 400px;
+    height: 500px;
+    font-size: 20px;
+    line-height: 2.5em;
+    display: inline-block;
+}
+.contenedor__plan{
+    margin-right: 30px;
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    float: right;
+}
+.plan{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 20px;
+}
+
+.icono{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding-top: 21px;
+}
+.texto{
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.carta{
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    margin: 30px;
+}
+.carta__img{
+    width: 400px;
+    height: 300px;
+}
+.seccion{
+    background: rgb(236, 188, 31);
+}
+/*formulario de contacto*/
+form{
+    margin: 30px;
+    line-height: 2em;
+    width: 600px;
+    height: 600px;
+    font-size: 17px;
+}
+/* pie de pagina */
+footer{
+    background: rgb(38, 70, 92);
+    width: 100%;
+    height: 150px;
+}
+footer li{
+    text-anchor: middle;
+    color: white;
+    list-style: none;
+    padding-top: 55px;
+    padding-left: 30px;
+    display: inline-block;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+}
